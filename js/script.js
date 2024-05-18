@@ -1,1 +1,1 @@
-console.log("artemka lubit kurku gril")
+console.log("artemka lubit kurku gril!")
