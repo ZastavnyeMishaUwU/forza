@@ -155,3 +155,50 @@ body{
     width: 295px;
     height: 63px;
 }
+.info-button{
+    cursor: pointer;
+    color: #828282;
+    font-size: 1.72vw;
+    font-weight: 400;
+    font-family: "Monotype Corsiva";
+    transition: all 200ms;
+}
+
+
+.main{
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
+.main_navigation{
+    width: 1280px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+}
+.main_navigation_cours{
+    font-size: 30px;
+    color: white;
+}
+.main_navigation_low_line{
+    width: 518px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main_navigation_low_line_text{
+    font-size: 20px;
+    color: white;
+}
+.main_navigation_low_line:nth-child(1)>.info-button{
+    margin-right: 20px;
+}
+.main_navigation_low_line_text:nth-child(1){
+    font-size: 20px;
+    color: white;
+    border-block-end: 2px solid #FCCA49;
+    writing-mode: horizontal-tb;
+}
