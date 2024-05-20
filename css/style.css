@@ -298,10 +298,25 @@ body{
 
 }
 .info_img{
+    width: 1370px;
+    height: auto;
+    margin-left:25px;
+    /*margin-right:100px;*/
+    margin-top: 190px;
+}
+.progress{
     width: 1240px;
     height: 169px;
     margin: 0 auto;
     margin-left:100px;
     margin-right:100px;
     margin-top: 190px;
+}
+.progress_title{
+    font-size: 30px;
+    color: white;
+}
+.elementor-video{
+    width: 1240px;
+
 }
